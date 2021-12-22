@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+    nginx:
+        container_name: nginx
+        image: nginx:alpine
+        ports:
+            - 8080:80
+        volumes:
+            - ./docker/nginx/config:/etc/nginx/conf.d
