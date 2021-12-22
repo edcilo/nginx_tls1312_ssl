@@ -8,3 +8,4 @@ services:
             - 8080:80
         volumes:
             - ./docker/nginx/config:/etc/nginx/conf.d
+            - ./docker/nginx/ssl:/etc/ssl/
