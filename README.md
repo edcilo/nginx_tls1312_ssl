@@ -1,6 +1,6 @@
 # NGINX
 
-Configure nginx for accept TLS v1.2 and v1.3 and enable support for Perfect Forward Secrecy
+Configure nginx for accept TLS v1.2 and v1.3, enable support for Perfect Forward Secrecy and HSTS
 
 ## Usage
 
